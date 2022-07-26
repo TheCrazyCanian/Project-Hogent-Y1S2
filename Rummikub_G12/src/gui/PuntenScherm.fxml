@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #f7e9d2;" type="Pane" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="19.0" layoutY="-1.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-37.2">
+         <image>
+            <Image url="@../images/Blauw10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="151.0" layoutY="-37.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-16.4">
+         <image>
+            <Image url="@../images/Geel5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="309.0" layoutY="-53.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-127.0">
+         <image>
+            <Image url="@../images/Rood12.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="453.0" layoutY="-53.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-169.9">
+         <image>
+            <Image url="@../images/Blauw3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="576.0" layoutY="-53.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="172.2">
+         <image>
+            <Image url="@../images/Joker1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="681.0" layoutY="-88.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="165.6">
+         <image>
+            <Image url="@../images/Zwart12.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="829.0" layoutY="-27.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-132.1">
+         <image>
+            <Image url="@../images/Blauw6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-31.0" layoutY="170.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="15.9">
+         <image>
+            <Image url="@../images/Zwart7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="19.0" layoutY="501.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="4.8">
+         <image>
+            <Image url="@../images/Blauw13.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="170.0" layoutY="533.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-21.8">
+         <image>
+            <Image url="@../images/Rood9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="877.0" layoutY="98.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-102.9">
+         <image>
+            <Image url="@../images/Blauw4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="865.0" layoutY="225.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-111.8">
+         <image>
+            <Image url="@../images/Rood9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="879.0" layoutY="341.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="73.3">
+         <image>
+            <Image url="@../images/Blauw6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="841.0" layoutY="501.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-35.5">
+         <image>
+            <Image url="@../images/Zwart4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="711.0" layoutY="546.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="11.9">
+         <image>
+            <Image url="@../images/Blauw11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="598.0" layoutY="546.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="19.4">
+         <image>
+            <Image url="@../images/Blauw11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="309.0" layoutY="533.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="26.6">
+         <image>
+            <Image url="@../images/Zwart5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="468.0" layoutY="525.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-69.1">
+         <image>
+            <Image url="@../images/Geel7.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblWinnaar" alignment="CENTER" layoutX="188.0" layoutY="132.0" prefHeight="36.0" prefWidth="538.0" textFill="#d8464a">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblScores" layoutX="410.0" layoutY="180.0" text="Scores:" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpeler1" alignment="CENTER" layoutX="268.0" layoutY="234.0" prefHeight="22.0" prefWidth="378.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpeler2" alignment="CENTER" layoutX="268.0" layoutY="289.0" prefHeight="22.0" prefWidth="378.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpeler3" alignment="CENTER" layoutX="268.0" layoutY="340.0" prefHeight="22.0" prefWidth="378.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpeler4" alignment="CENTER" layoutX="268.0" layoutY="393.0" prefHeight="22.0" prefWidth="378.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="202.0" fitWidth="194.0" layoutX="78.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ballonnen.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="202.0" fitWidth="194.0" layoutX="629.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ballonnen.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-31.0" layoutY="348.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="51.3">
+         <image>
+            <Image url="@../images/Rood4.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnNieuwSpel" alignment="CENTER" layoutX="292.0" layoutY="464.0" minWidth="125.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="125.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAfsluiten" alignment="CENTER" layoutX="513.0" layoutY="464.0" minWidth="125.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="125.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>

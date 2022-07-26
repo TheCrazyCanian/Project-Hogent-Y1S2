@@ -1,0 +1,24 @@
+.scroll-bar:horizontal .track {
+	 -fx-background-color: #f7e9d2;
+}
+
+.scroll-bar:horizontal .thumb {
+	 -fx-background-color: #3a3636;
+	 -fx-opacity: 0.3;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal *.increment-button, .scroll-bar:horizontal *.decrement-button {
+	-fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal *.increment-arrow .content, .scroll-bar:horizontal *.decrement-arrow .content {
+	-fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal *.increment-arrow, .scroll-bar:horizontal *.decrement-arrow {
+	-fx-background-color: transparent;
+}

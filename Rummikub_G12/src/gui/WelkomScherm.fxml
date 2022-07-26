@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #f7e9d2;" type="Pane" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="694.0" layoutY="273.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="25.3">
+         <image>
+            <Image url="@../images/Rood2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBelgium" fitHeight="32.0" fitWidth="32.0" layoutX="812.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Belgium.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgUK" fitHeight="32.0" fitWidth="32.0" layoutX="854.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/UnitedKingdom.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblTekst" layoutX="327.0" layoutY="331.0" text="Klik op Rummikub om te beginnen" textAlignment="CENTER" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRummikub" layoutX="218.0" layoutY="234.0" text="Rummikub" textFill="#d8464a">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="90.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="-9.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="33.1">
+         <image>
+            <Image url="@../images/Blauw10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="158.0" layoutY="62.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-14.0">
+         <image>
+            <Image url="@../images/Geel5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="51.0" layoutY="187.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-20.2">
+         <image>
+            <Image url="@../images/Zwart7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="282.0" layoutY="-61.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-127.2">
+         <image>
+            <Image url="@../images/Rood12.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="333.0" layoutY="78.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="29.1">
+         <image>
+            <Image url="@../images/Geel1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-11.0" layoutY="373.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="14.0">
+         <image>
+            <Image url="@../images/Rood4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="496.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="12.1">
+         <image>
+            <Image url="@../images/Blauw13.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="187.0" layoutY="335.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-76.2">
+         <image>
+            <Image url="@../images/Blauw8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="257.0" layoutY="496.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-21.8">
+         <image>
+            <Image url="@../images/Rood9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="491.0" layoutY="-37.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-26.6">
+         <image>
+            <Image url="@../images/Joker1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="496.0" layoutY="114.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-95.3">
+         <image>
+            <Image url="@../images/Blauw4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="825.0" layoutY="193.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-6.3">
+         <image>
+            <Image url="@../images/Rood9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="799.0" layoutY="383.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="63.4">
+         <image>
+            <Image url="@../images/Geel2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="383.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="22.6">
+         <image>
+            <Image url="@../images/Geel12.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="478.0" layoutY="499.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-12.7">
+         <image>
+            <Image url="@../images/Zwart5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="538.0" layoutY="360.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="123.3">
+         <image>
+            <Image url="@../images/Zwart9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="650.0" layoutY="496.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="14.0">
+         <image>
+            <Image url="@../images/Blauw11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="688.0" layoutY="101.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="52.0">
+         <image>
+            <Image url="@../images/Geel3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="625.0" layoutY="-37.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="164.6">
+         <image>
+            <Image url="@../images/Zwart12.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="799.0" layoutY="-22.0" opacity="0.65" pickOnBounds="true" preserveRatio="true" rotate="-58.6">
+         <image>
+            <Image url="@../images/Blauw6.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>

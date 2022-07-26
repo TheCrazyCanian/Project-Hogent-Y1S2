@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #f7e9d2;" type="Pane" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane fx:id="gemeenschappelijkVeld" gridLinesVisible="true" layoutX="29.0" layoutY="35.0" maxHeight="735.0" maxWidth="1885.0" minHeight="735.0" minWidth="1885.0" prefHeight="735.0" prefWidth="1885.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <GridPane fx:id="werkveld" alignment="CENTER" gridLinesVisible="true" layoutX="418.0" layoutY="830.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="NEVER" />
+         </rowConstraints>
+      </GridPane>
+      <Label fx:id="lblAantalPot" layoutX="309.0" layoutY="1035.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnKlaar" alignment="CENTER" layoutX="29.0" layoutY="895.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="129.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      
+      <Button fx:id="btnReset" alignment="CENTER" layoutX="29.0" layoutY="962.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="129.0" style="-fx-background-color: #d8464a;" text="Reset" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSorteer" alignment="CENTER" layoutX="222.0" layoutY="962.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="129.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3a3636" height="7.0" layoutX="-36.0" layoutY="813.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1992.0" />
+      <Label alignment="CENTER" layoutX="338.0" layoutY="998.0" opacity="0.65" prefHeight="0.0" prefWidth="112.0" style="-fx-rotate: 270;" text="Inventory" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfoSpeler" alignment="CENTER" layoutX="28.0" layoutY="846.0" prefHeight="23.0" prefWidth="324.0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="77.0" opacity="0.65" text="0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="180.0" opacity="0.65" text="1" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="285.0" opacity="0.65" text="2" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="391.0" opacity="0.65" text="3" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="495.0" opacity="0.65" text="4" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="600.0" opacity="0.65" text="5" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="707.0" opacity="0.65" text="6" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="5.0" opacity="0.65" text="0" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="5.0" opacity="0.65" text="1" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="5.0" opacity="0.65" text="2" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="5.0" opacity="0.65" text="3" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="5.0" opacity="0.65" text="4" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="5.0" opacity="0.65" text="5" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="444.0" layoutY="5.0" opacity="0.65" text="6" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="5.0" opacity="0.65" text="7" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="575.0" layoutY="5.0" opacity="0.65" text="8" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="638.0" layoutY="5.0" opacity="0.65" text="9" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="696.0" layoutY="5.0" opacity="0.65" text="10" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="761.0" layoutY="5.0" opacity="0.65" text="11" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="826.0" layoutY="5.0" opacity="0.65" text="12" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="892.0" layoutY="5.0" opacity="0.65" text="13" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="956.0" layoutY="5.0" opacity="0.65" text="14" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1021.0" layoutY="5.0" opacity="0.65" text="15" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1085.0" layoutY="5.0" opacity="0.65" text="16" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1150.0" layoutY="5.0" opacity="0.65" text="17" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1215.0" layoutY="5.0" opacity="0.65" text="18" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1281.0" layoutY="5.0" opacity="0.65" text="19" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1346.0" layoutY="5.0" opacity="0.65" text="20" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1412.0" layoutY="5.0" opacity="0.65" text="21" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1478.0" layoutY="5.0" opacity="0.65" text="22" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1542.0" layoutY="5.0" opacity="0.65" text="23" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1607.0" layoutY="5.0" opacity="0.65" text="24" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1673.0" layoutY="5.0" opacity="0.65" text="25" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1737.0" layoutY="5.0" opacity="0.65" text="26" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1803.0" layoutY="5.0" opacity="0.65" text="27" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1867.0" layoutY="5.0" opacity="0.65" text="28" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblWerkveld" alignment="CENTER" layoutX="338.0" layoutY="871.0" opacity="0.65" prefHeight="0.0" prefWidth="112.0" style="-fx-rotate: 270;" text="Werkveld" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAantalPot1" layoutX="287.0" layoutY="1033.0" text="x" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="infoFout" alignment="CENTER" layoutX="495.0" layoutY="782.0" prefHeight="22.0" prefWidth="917.0" textFill="#d8464a">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSplits" alignment="CENTER" layoutX="222.0" layoutY="895.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="129.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnStop" alignment="CENTER" layoutX="29.0" layoutY="1029.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="129.0" style="-fx-background-color: #d8464a;" text="Stop" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eedcc5" height="36.0" layoutX="245.0" layoutY="1028.0" stroke="#3a3636" strokeType="INSIDE" width="25.0" />
+      <Rectangle fx:id="rectangleCover" arcHeight="5.0" arcWidth="5.0" fill="#f7e9d2" height="195.0" layoutX="18.0" layoutY="880.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="366.0" />
+      <Label fx:id="lblSplits1" layoutX="27.0" layoutY="904.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSplits2" layoutX="27.0" layoutY="957.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAnnuleerSplits" alignment="CENTER" layoutX="32.0" layoutY="1018.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #d8464a;" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOkSplits" alignment="CENTER" layoutX="226.0" layoutY="1018.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #d8464a;" text="OK" textFill="#3a3636">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txfRij1" alignment="CENTER" layoutX="268.0" layoutY="900.0" prefHeight="25.0" prefWidth="35.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txfKolom1" alignment="CENTER" layoutX="325.0" layoutY="900.0" prefHeight="25.0" prefWidth="35.0" />
+      <TextField fx:id="txfRij2" alignment="CENTER" layoutX="268.0" layoutY="953.0" prefHeight="25.0" prefWidth="35.0" />
+      <TextField fx:id="txfKolom2" alignment="CENTER" layoutX="325.0" layoutY="953.0" prefHeight="25.0" prefWidth="35.0" />
+      <ScrollPane hbarPolicy="ALWAYS" layoutX="416.0" layoutY="953.0" prefHeight="122.0" prefWidth="1499.0" style="-fx-background-color: #f7e9d2;" vbarPolicy="NEVER">
+         <content>
+            <Pane style="-fx-background-color: #f7e9d2;">
+               <children>
+                  <GridPane fx:id="inventory" alignment="CENTER" gridLinesVisible="true" layoutX="1.0" layoutY="1.0" style="-fx-background-color: #f7e9d2;">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints fillWidth="false" halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="65.0" minWidth="65.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="105.0" minHeight="105.0" prefHeight="105.0" valignment="CENTER" vgrow="NEVER" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7e9d2" height="22.0" layoutX="405.0" layoutY="1061.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7e9d2" height="22.0" layoutX="1904.0" layoutY="1061.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="23.0" />
+   </children>
+</fx:root>
